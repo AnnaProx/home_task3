@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+        <h1>Questionnaire</h1>
+    </header>
+
+    <navigation>
+        <p><a href="index.html">Article</a></p>
+        <p><a href="contacts.html">Questionnaire</a></p>
+    </navigation>
+    <main>
+         <section>
+               <form method="POST" action="https://formspree.io/annazolotukha@gmail.com">
+                    <fieldset><legend>Personal information</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Name" 
+                        id="client-name"  required>
+                        <br>
+                        <label> Email:
+                            <input type="email" name="client-email"
+                            placeholder="Client Email">
+                        </label>
+                        <br>
+                        <label> Phone:
+                            <input type="tel" name="tel" placeholder="Phone">
+                        </label>
+                </fieldset>
+                        
+                        <br>
+                <fieldset><legend>Questions</legend>
+                        <label>What do you prefer?</label><br>
+                        <label>
+                            <input type="radio" name="messenger" value="Whatsapp">Whatsapp
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="messenger" value="Viber">Viber
+                        </label>
+                        <br>
+                       <label>What do you use more?</label><br>
+                        <label>
+                            <input type="radio" name="socialnet" value="Vkontakte">Vkontakte
+                        </label><br>
+                         <label>
+                            <input type="radio" name="socialnet" value="Facebook">Facebook
+                        </label>
+                         <br>
+                       <label>How many hours per day you spend scrolling Instagram?</label><br>
+                        <label>
+                            <input type="radio" name="hours" value=">1 hours"> >1 hours
+                        </label><br>
+                         <label>
+                            <input type="radio" name="hours" value="<1 hours"> <1 hours
+                        </label>
+                        </fieldset>
+                        <br>
+                        <input type="Submit"/>
+                        <input type="Reset"/>
+                    </form>
+                </section>        
+        
+    </main>
+    
+</body>
+</html>
